@@ -1,0 +1,27 @@
+<%- include("partials/header.ejs") %>
+
+<body>
+    <h1> Famous Quotes - Admin Section </h1>
+
+    <div class="container buttons">
+    <form action="/author/new">
+        <button>Add Authors</button>
+    </form><br>
+
+    <form action="/quote/new">
+        <button>Add Quotes</button>
+    </form><br>
+
+    <form action="/authors">
+        <button>List Authors</button>
+    </form><br>
+
+    <form action="/quotes">
+        <button>List Quotes</button>
+    </form>
+    </div>
+
+    <%- include("partials/footer.ejs") %>
+
+</body>
+</html>
